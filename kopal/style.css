@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------navbar------------ */
+
+.logo {
+  color: rgb(33, 5, 97);
+}
+
+.inputSearch {
+  position: relative;
+}
+
+#searchbar {
+  height: 9vh;
+  width: 35%;
+  padding: 5px;
+  position: absolute;
+  border: 2px solid grey;
+}
+
+#button {
+  height: 8vh;
+  width: 5%;
+  margin-left: 62vh;
+  position: absolute;
+  border: none;
+}
+
+.inputSearch {
+  position: relative;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+/* -----------section 1 ----------------- */
+
+#section1 {
+  padding: 20px;
+  background-image: url("bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 10px 20px;
+}
+
+.space-between {
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+
+.lang {
+  margin-left: 10px;
+  height: 5vh;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.list li a {
+  text-decoration: none;
+  color: rgb(34, 5, 96);
+}
+
+/* ------------section 1------------ */
+
+.top-heading {
+  font-size: 3rem;
+  margin-top: 15vh;
+  text-align: center;
+}
+.top-heading p {
+  font-size: 60px;
+  background: -webkit-linear-gradient(rgb(242, 143, 4), rgb(249, 197, 154));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ------------section 2-------------- */
+
+.aboutgita {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  background: #eee7e7;
+}
+
+#mahabhartimg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#mahabhartimg {
+  height: 50vh;
+  width: 80vh;
+}
+.aboutgita h1 {
+  padding-top: 17vh;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+/* ----------------section 3--------- */
+
+#section3 {
+  margin-top: 4vh;
+}
+
+#section3 h2 {
+  text-align: center;
+  font-size: 3rem;
+  /* border: 2px solid black; */
+  background-color: rgb(125, 174, 207);
+  border-radius: 50vh;
+}
+.theme {
+  border: 2px solid black;
+  margin-top: 5vh;
+  background: rgb(211, 238, 243);
+}
+
+.theme h1 {
+  margin: 6vh;
+}
+
+.theme-flex {
+  display: flex;
+  gap: 10px;
+  margin: 13px;
+  font-size: 1.3rem;
+}
+/* --------footer ---------------- */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+a .footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact span {
+  display: block;
+  margin-top: 10px;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.aboutgita {
+  display: flex;
+}
+
+.result {
+  /* color: rgb(31, 31, 31); */
+  color:rgb(4, 38, 40);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="members.css">
+</head>
+<body>
+    <div class="member-container">
+        <h1>Members Management</h1>
+        <div class="name-container">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" class="form" placeholder="Please enter name">
+            <div id="alert-message-one"></div>
+        </div>
+        <div class="email-container">
+            <label for="mail" class="form-one">Email</label><br>
+            <input type="text" id="mail" class="form" placeholder="Please enter email">
+            <div id="alert-message-two"></div>
+        </div>
+        <div class="ph-container">
+            <label for="ph-no" class="form-one">Mobile Number</label><br>
+            <input type="text" id="ph-no" class="form" placeholder="Please enter mobile number">
+            <div id="alert-message-three"></div>
+        </div>
+        <!-- <button id="btn-btn" ><a href="memberlist.html" target="_blank">Add Members</a></button> -->
+        <button id="btn-btn" onclick="addbook()">Add member</button>
+        <button id="clear" onclick="Delete()">Delete</button>
+        </div>
+        <div class="java-div">
+            <table id="table-one">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile Number</th>
+                    <!-- <th>Actions</th> -->
+                </tr>
+                </thead>
+                <tbody id="booklist">
+                    <!-- <tr>
+                        <td>Pranali</td>
+                        <td>Pranali@gmail.com</td>
+                        <td>9012345677</td>
+                        <td onclick="Delete()">Delete</td> -->
+                    <!-- </tr>
+                    <tr>
+                        <td>Uma</td>
+                        <td>uma22@gmail.com</td>
+                        <td>6590865440</td>
+                    </tr>
+                    <tr>
+                        <td>Manisha</td>
+                        <td>manisha22@gmail.com</td>
+                        <td>9090909090</td>
+                    </tr>
+                    <tr>
+                        <td><S></S>aurav shekhar</td>
+                        <td>sauravahekhar@gmail.com</td>
+                        <td>7896458868</td>
+                    </tr>
+                    <tr>
+                        <td>priyanka</td>
+                        <td>priyanka22@gmail.com</td>
+                        <td>7654537389</td>
+                    </tr>
+                    <tr>
+                        <td>Suman</td>
+                        <td>suman22@gmail.com</td>
+                        <td>6309116754</td>
+                    </tr> --> 
+                </tbody>
+            </table>
+        </div>
+        <script src="members.js"></script>
+</body>
+</html>
